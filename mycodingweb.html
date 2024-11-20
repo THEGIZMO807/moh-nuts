@@ -1,0 +1,173 @@
+<html>
+<head>
+  <style>
+    body {
+      font-family: tahoma;
+      text-align: center;
+    }
+    header {
+      letter-spacing: 6px;
+      background-color:deeppink;
+      padding: 20px;
+      color: black;
+    }
+    td{
+      padding: 10px;}
+    table{
+      margin:auto;}
+    h2 {
+      font-size: 2em;
+      width: 100%;
+    }
+    section {
+      padding: 30px;
+      margin-bottom: 40px;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;}
+    .card {
+      border: 1px solid #ccc;
+      background-color: ivory;
+      margin: 25px;
+      padding: 25px;
+      box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+    }
+    .icons {
+      font-size: 8em;
+      padding: 25px;
+    }
+    button, .button {
+      background: royalblue;
+      border: 0;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    #my-order{
+      background-color: #29C1C4;
+      padding: 25px;
+      display: none;}
+    footer{
+      padding:30px;
+      background:grey;
+    }
+    @media screen and min width: 50em) {
+      .card {
+        flex-basis: 325px;
+      }
+      header h1 {
+        font-size: 5em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>MOH NUTS AND SPICES SHOP.</h1>
+    <h4>The best quality cake ingridients in dar-es-salaam</h4>
+  </header>
+  <section>
+    <h2>WELCOME:</h2>
+    <p>VISION: To provide what we believe is best for a customers uses</p>
+    <br><br>
+    <p>ABOUT US: Founded in 2018, by Mohammed Ali. We are found at Kariakoo pemba and sikukuu street.</p>
+  </section>
+  <section class="container">
+    <h2>SERVICES://</h2>
+    <article class="card">
+      <div class="icons"> &#10084;</div>
+      <h3>CAKE INGRIDIENTS </h3>
+      <p> The best flavours,food colours from around the world (dubai,india,china e.t.c).</p>
+<a href=https://www.instagram.com/mohnuts_shop/?hl=en>
+      <button style="border-radius:5px"> VIEW </button>
+</a>
+    </article>
+    <article class="card">
+      <div class="icons"> &#10084;</div>
+      <h3> NUTS AND SPICES </h3>
+      <p>all than you can think of ( almonds,cashew nuts and many more)</p>
+<a href=https://www.google.com/search?sca_esv=6002dbc0d746c933&sxsrf=ADLYWIJ2AWtgAVQcegJ8-zYxllOVrtqDlg:1732121508396&q=moh+nuts+and+spices&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3JyJJclJuzBPl12qJyPx7ESK7b4aLvBiyW0dLZupqq31xbTTsXiIER_43KrphIXitnP9QoiZATQqrwYUqnb9PxNhH59RbvJrB6YaklAhJAO2GBqR3NciBeACxLetYzdF-VJT-f54&sa=X&ved=2ahUKEwjVyNy5r-uJAxVr2QIHHbl-MXkQtKgLegQIFhAB&biw=1280&bih=585&dpr=1.5>
+      <button style="border-radius:5px"> VIEW </button>
+</a>
+    </article>
+  </section>
+      <section>
+      </section>
+   <div class="footer">
+     <h3>Thanks for visiting.</h3>
+     <div class="container">
+     </div>
+     <article class="card">
+       <h3>:Get in touch</h3>
+       <p>:Probably the best place to buy cake ingridients,nuts and spices in dar es salaam.</p>
+       </article>
+       <article class="card">
+         <h3>:Contact us:</h3>
+     <p>:We would love to hear from you.<br> Call or email us.<br>
+       Mobile: 0754711692//
+       Tel: 0768915572</p>
+       </article>
+            </div>
+       &copy;2021 MOH NUTS SHOP 
+            </div>
+            <script>
+      function placeOrder(){
+  var orderForm=document.getElementById("my-form");
+   results="<h3>Success</h3> Here is your order.";
+     results += "<br>Name: "
++orderForm.elements["my-name"].value;
+     results += "<br>Address: " +orderForm.elements["my-address"].value;
+    results += "<br>I like to order: "orderForm.elements["my-drink"].value;
+    results += "<br>I like to order: "+orderForm.elements["my-drink"].value;
+          var orderResults= document.getElementById("my-order");
+  orderResults.style.display ="block";              orderResults.innerHTML=results;}
+            </script>
+
+</body>
+<section>
+    <h2>WELCOME:</h2>
+    <p>VISION: To provide what we believe is only best to our humble customers</p>
+    <br><br>
+    <p>ABOUT US: Founded in 2018, by Mohammed Ali.</p>
+  </section>
+  <section class="container"
+    style="background-color:deeppink;">
+    <h2>OUR TEAM://</h2>
+    <article class="card">
+      <div class="icons"> &#10084;</div>
+      <h3>Mohammed Ali</h3>
+      <p>Founder and CEO of the businesss and the mastermind in the products catalogue.</p>
+<a>
+<button style="border-radius:5px">Contact</button>
+</a>
+    </article>
+    <article class="card">
+      <div class="icons"> &#10084;</div>
+      <h3>Marhoun Abdullah </h3>
+      <p>Our operator at our firm in kariakoo</p>
+<a>
+      <button style="border-radius:5px"> Contact </button>
+</a>
+</article>
+<article class="card">
+     <div class="icons">&#128513;</div>
+<h3>Asha Abdallah</h3>
+<p>Our financial genius and stocks valuator</p>
+<a href="mailto:abswaarmohammed@gmail.com"class=".btn.btn--contact">
+<button style="border-radius:5px">Contact</button>
+</a>
+</article>
+  <article class="card">
+<div class="icons">&#128513;</div>
+<h3>Zeyana Abdallah</h3>
+<p>Our baker to make you delicacies out of this world</p>
+<a href="0776717171">
+<button style="border-radius:5px">Contact</button>
+</a>
+    </article>
+  </section>
+</html>  
